@@ -43,7 +43,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        string apiKey = "f0b842b6befa975f8425e86c0193d7ea"; // Ключ API для доступа к OpenWeatherMap API b30921ec23d5c88c96c22616fb2f3933
+        string apiKey = ""; // Ключ API для доступа к OpenWeatherMap API b30921ec23d5c88c96c22616fb2f3933
         string URL = $"https://api.openweathermap.org/data/2.5/weather"; // URL для получения данных о погоде
 
         Weather[] weathers = new Weather[50]; // Массив для хранения данных о погоде для 50 случайных мест
